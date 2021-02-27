@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css" >
+</head>
+
+<body>
+<h2>Latitude</h2>
+
+<p>Analyzing the relationship between latitude and weather across cities.</p>
+<button type="button" class="collapsible">Navigation Bar</button>
+<div class="content">
+    <div class="navbar">
+      <ul id="nobullets">
+        <li>
+          <a class="dropdown-item" href="/Users/alisonsadel/Desktop/master_data_file/Web-Design-Challenge/Files/data.html" target="_blank">Data</a>
+        </li>
+        <br>
+        <li>
+          <a class="dropdown-item" href="/Users/alisonsadel/Desktop/master_data_file/Web-Design-Challenge/Files/windspeed.html" target="_blank">Windspeed</a>
+        </li>
+        <br>
+        <li>
+          <a class="dropdown-item" href="/Users/alisonsadel/Desktop/master_data_file/Web-Design-Challenge/Files/maxtemp.html" target="_blank">Temperature</a> 
+        </li>
+        <br>
+        <li>
+        <a class="dropdown-item" href="/Users/alisonsadel/Desktop/master_data_file/Web-Design-Challenge/Files/humidity.html" target="_blank">Humidity</a>
+        </li>
+        <br>
+        <li>
+        <a class="dropdown-item" href="/Users/alisonsadel/Desktop/master_data_file/Web-Design-Challenge/Files/cloudiness.html" target="_blank">Cloudiness</a>
+        </li>
+        <br>
+      </ul>
+    </div>
+</div>
+
+<div>
+  <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        } 
+      });
+    }
+    </script>
+</div>
+<hr>
+
+<!--Create website description-->
+<div class= "abstract">
+    <div class= "container">
+      <div class= "row">
+        <div id="wrapper">
+          <div id="first-globe">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Division_of_the_Earth_into_Gauss-Krueger_zones_-_Globe.svg/1200px-Division_of_the_Earth_into_Gauss-Krueger_zones_-_Globe.svg.png" width="250" height="250" alt="globe">
+          </div>
+          <div id="textwrap">
+            <p div id="p1">
+              The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
+            </p>
+            <p div id="p2">
+              After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included:temperature, cloudiness, wind speed, and humidity. 
+            This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Display visualizations on homepage-->
+  <div class="visuals">
+    <div class="container">
+      <div class="row">
+        <h2 id="viz">Visualizations</h2>
+          <div class="picture-box"> 
+            <div class="left-charts">
+              <!--Create visualization for maxtemp on homepage-->
+              <a href="maxtemp.html"><img src="/Users/alisonsadel/Desktop/master_data_file/Web-Design-Challenge/Resources/assets/lat_temp.png" target="_blank" width="500px"  alt="Max Temperature"> Latitude & Maximum Temperature</a>
+              <!--Create visualization for windspeed on homepage-->
+              <a href="windspeed.html"><img src="/Users/alisonsadel/Desktop/master_data_file/Web-Design-Challenge/Resources/assets/lat_wind.png" target="_blank" width="500px"  alt="Windspeed"> Latitude & Wind Speed</a>
+            </div>
+            <div class="right-charts">
+              <!--Create visualization for humidity on homepage-->
+              <a href="humidity.html"><img src="/Users/alisonsadel/Desktop/master_data_file/Web-Design-Challenge/Resources/assets/lat_humid.png" target="_blank" width="500px"  alt="Humidity"> Latitude & Humidity</a>
+              <!--Create visualization for cloudiness on homepage-->
+              <a href="cloudiness.html"><img src="/Users/alisonsadel/Desktop/master_data_file/Web-Design-Challenge/Resources/assets/lat_cloud.png" target="_blank" width="500px"  alt="Cloudiness"> Latitude & Cloudiness</a>
+            </div>
+          </div>
+    </div>
+  </div>
+
+</body>
+</html>

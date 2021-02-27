@@ -1,0 +1,21 @@
+,city,latitude,longitude,max_temp,humidity,cloudiness,windspeed,country,date,hotel_name
+83,Vallenar,-28.57,-70.76,71.17,45,0,4.83,CL,1609375504,Hotel Solaris
+114,Panama City,8.99,-79.52,78.8,88,0,6.93,PA,1609375322,Quality Inn & Conference Center
+130,Alenquer,-1.94,-54.74,77,94,0,1.12,BR,1609375560,
+210,Linhares,-19.39,-40.07,71.08,94,0,3.44,BR,1609375669,Days Inn by Wyndham Linhares
+216,Beloha,-25.17,45.05,74.16,64,0,8.79,MG,1609375676,
+236,Ambilobe,-13.2,49.05,71.37,93,0,1.9,MG,1609375701,Hotel National
+255,Maragogi,-9.01,-35.22,77.13,84,4,8.77,BR,1609375725,Salinas do Maragogi All Inclusive Resort
+256,San Juan,-31.54,-68.54,78.94,18,0,9.86,AR,1609375727,Hotel Viñas del Sol
+261,Sarh,9.14,18.39,73.4,49,0,6.93,TD,1609375733,Hôtel Faubourg Montréal
+304,Conceição da Barra,-18.59,-39.73,75.83,82,0,7.61,BR,1609375556,
+357,Birao,10.28,22.79,71.29,31,0,5.95,CF,1609375858,
+394,Young,-32.68,-57.63,70,46,0,4,UY,1609375901,
+449,Vavoua,7.38,-6.48,71.62,33,0,3.58,CI,1609375971,Hotel La Sougoun
+502,Dabola,10.75,-11.12,71.19,32,0,0.92,GN,1609376042,Hotel Tinkisso
+516,Makkah al Mukarramah,21.43,39.83,74.5,74,0,3.69,SA,1609376060,Pullman Zamzam Makkah
+518,Manta,-0.95,-80.73,75.2,78,0,6.93,EC,1609376062,Hotel Vistalmar
+519,Basoko,1.24,23.62,71.62,90,8,2.13,CD,1609376063,Flat Hotel La Benediction
+525,Cabedelo,-6.98,-34.83,77,88,0,8.05,BR,1609375892,Caribessa Eco House
+529,Bathsheba,13.22,-59.52,77,83,0,5.82,BB,1609376024,Santosha Barbados
+554,Dourados,-22.22,-54.81,74.35,82,8,2.17,BR,1609376106,Hotel Bahamas LTDA

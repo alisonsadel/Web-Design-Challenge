@@ -1,0 +1,174 @@
+/* Declare font for website*/
+body {font-family: Arial, Helvetica, sans-serif;} 
+
+/* Navbar */
+.collapsible {
+  background-color: #48D1CC;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#nobullets {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+  font-size: 18px; /* Set font */
+}
+ 
+.navbar {
+  width: 100%;
+  background-color: #48D1CC;
+  overflow: auto;
+} 
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #008B8B;
+}
+
+.active {
+  background-color: black;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+/* .active, .collapsible:hover {
+  background-color: #008B8B;
+} */
+
+.content {
+  padding: 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #F5FFFA;
+}
+
+a.dropdown-item{  
+  padding-top:20px;
+  padding-bottom: 20px;
+  position: fixed;
+  line-height: 24px;
+}
+
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+h1 {
+    background-color: #48D1CC
+} 
+
+#viz{
+  margin-top: 100px;
+  margin-left: 30%;
+}
+
+#p1 {
+  padding-top: 50px;
+}
+
+#wrapper {
+    width: 1000px;
+  }
+
+  #first-globe {
+    width: 300px;
+    float: left;
+    
+  } 
+  /* Ensure <p> are to the right of the globe image*/
+ /* #textwrap{
+    position: relative;
+  } */
+
+/* Style lower matplotlib charts on landing page */
+.picture-box {
+    margin-top: 10px;
+    display: flex;
+    max-width: 300px;
+    background:#cpeeff;
+    padding: 10px;
+    flex-direction: row;
+    text-align: center;
+  }  
+
+
+  /* Return to homepage from other landing pages */
+ .tohomepage {
+    background-color: #48D1CC;
+    padding-right:100%;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+ }
+
+  /* Data landing page styling */
+
+  dt {
+    margin-bottom: 15px;
+    margin-left: 15px;
+  }
+
+  #define {
+    text-align: center;
+  }
+  table {
+    width: 100%;
+  }
+  
+#tablename {
+    text-align: center;
+  }
+  
+.dataframe {
+    border: 1px solid black;
+    padding: 15px;
+  } 
+
+  th {
+      text-align: center;
+    } 
+  
+  tr {
+      text-align: center;
+      color: black;
+    }  
+  
+    td {
+        height: 50px;
+    }
+  
+    th, td {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tr:hover {
+      background-color:  #48D1CC;
+  }
+  
+  tr:nth-child(even) {
+      background-color: #f2f2f2;
+  }
+
+
