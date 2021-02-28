@@ -1,7 +1,7 @@
 /* Declare font for website*/
 body {font-family: Arial, Helvetica, sans-serif;} 
 
-/* Navbar */
+/* Navigation Bar Styling for Vertical Nav Bar on initial landing page */
 .collapsible {
   background-color: #48D1CC;
   color: white;
@@ -40,20 +40,13 @@ body {font-family: Arial, Helvetica, sans-serif;}
   background-color: #008B8B;
 }
 
-.active {
-  background-color: black;
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
 }
-
-@media screen and (max-width: 500px) {
-  .navbar a {
-    float: none;
-    display: block;
-  }
-}
-
-/* .active, .collapsible:hover {
-  background-color: #008B8B;
-} */
 
 .content {
   padding: 18px;
@@ -68,9 +61,43 @@ a.dropdown-item{
   position: fixed;
   line-height: 24px;
 }
+/* Navigation Bar Styling for Horizontal Nav Bar on Secondary Pages */
+
+.othernavbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+.horizontal {
+  float: left;
+}
+
+.horizontal a {
+  display: block;
+  color: #48D1CC;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.horizontal a:hover {
+  background-color: #008B8B;
+}
 
 
-/* Main content */
+/* Make the website responsive to different screen sizes */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+
+/* Styling Main Content on Landing Page */
 .main {
   margin-top: 30px; /* Add a top margin to avoid content overlay */
 }
@@ -81,7 +108,7 @@ h1 {
 
 #viz{
   margin-top: 100px;
-  margin-left: 30%;
+  margin-left: 39%;
 }
 
 #p1 {
@@ -94,17 +121,15 @@ h1 {
 
   #first-globe {
     width: 300px;
+    margin-left: 100px;
     float: left;
     
   } 
-  /* Ensure <p> are to the right of the globe image*/
- /* #textwrap{
-    position: relative;
-  } */
 
 /* Style lower matplotlib charts on landing page */
 .picture-box {
     margin-top: 10px;
+    margin-left: 100px;
     display: flex;
     max-width: 300px;
     background:#cpeeff;
